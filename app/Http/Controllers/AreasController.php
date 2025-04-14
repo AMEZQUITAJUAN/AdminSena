@@ -6,5 +6,30 @@ use Illuminate\Http\Request;
 
 class AreasController extends Controller
 {
-    //
+    public function areaCirculo($radio){
+
+        $area=3.1416*($radio*$radio);
+        return $area;
+
+    }
+
+
+    public function areaTriangulo($base,$altura){
+
+        $area=($base*$altura)/2;
+
+        return $area;
+
+    }
+
+
+    public function  cuadratica($a,$b,$c){
+
+       if($a!=0){
+
+
+
+       }
+
+    }
 }
